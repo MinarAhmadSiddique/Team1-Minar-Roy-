@@ -1,0 +1,36 @@
+﻿.signinformback {
+    text-align: center;
+    color:white;
+}
+#login {
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#signup {
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 450px;
+}
+
+#login:hover {
+    background-color: #555;
+}
+
+#signup:hover {
+    background-color: #555;
+}

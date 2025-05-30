@@ -1,0 +1,21 @@
+﻿#h1, #h2 {
+    text-align: center;
+}
+
+.ticket {
+    max-width: 700px;
+    margin: 3% auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 3%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.ticket p {
+    margin: 2% 0;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #0a74da;
+}

@@ -1,0 +1,76 @@
+﻿
+#map {
+    height: 400px;
+    width: 50%;
+    border: solid 5px grey;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    height: 400px;
+    margin-top: 2%;
+}
+
+.flight-text {
+    background-color: white;
+    width: 50%;
+    padding-bottom: 17.8%;
+    padding-left: 1%;
+    padding-top: 1%;
+    position: relative;
+    height: 100%;
+    border: solid 5px grey;
+    border-radius: 15px;
+}
+
+.flight-text h1 {
+margin-top: 0;
+}
+
+#cityInfo {
+    position: absolute;
+    bottom: 10px;
+    left: 1%;
+    right: 1%;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    display: none;
+    flex-direction: row;
+    gap: 15px;
+    max-height: 180px;
+    overflow-y: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+th, td {
+    padding: 10px 15px;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #ddd;
+}
+#ToBook {
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    margin-top:2%;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#ToBook:hover {
+    background-color: #555;
+}
+.flight-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.flight-controls select,
+.flight-controls label {
+     margin-right: 5px;
+}
+

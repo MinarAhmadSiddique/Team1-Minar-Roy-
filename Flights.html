@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Flights</title>
+
+    <link href="../CSS/Universal.css" rel="stylesheet" />
+    <link href="../CSS/Flights.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+    <p class="stickyposition">Welcome to SkyNova</p>
+
+    <h1 class="heading">
+
+        <span class="Cs">S</span><span class="s">ky</span><span class="Cs">N</span><span class="s">ova</span>
+
+        <p class="Hs">Explore-Dream-Fly</p>
+
+    </h1>
+
+    <div class="menuBar">
+        <nav>
+            <h2>
+                <a href="Home.html">Home</a>
+                <!--
+                -->
+                <a href="About.html">About</a>
+                <!--
+                -->
+                <a href="Flights.html">Flights</a>
+                <!--
+                -->
+                <a href="Login.html">Sign Up / Login</a>
+                <!--
+                -->
+                <a href="Contact.html">Contact</a>
+            </h2>
+        </nav>
+    </div>
+
+    <h1>Flight Status</h1>
+
+    <table border="5" style="padding: 8px 12px; background-color:white; margin:0 auto;border-radius:15px">
+        <thead>
+            <tr>
+                <th><label>Flight Number</label></th>
+                <th><label>Airline</label></th>
+                <th><label>Destination</label></th>
+                <th><label>Scheduled Departure</label></th>
+                <th><label>Estimated Departure</label></th>
+                <th><label>Status</label></th>
+                <th><label>Gate</label></th>
+                <th><label>Terminal</label></th>
+                <th><label>Plane Model</label></th>
+                <th><label>Remarks</label></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label>NY1234</label></td>
+                <td><label>SkyNova</label></td>
+                <td><label>Los Angeles(LAX)</label></td>
+                <td><label>10:00AM</label></td>
+                <td><label>10:05AM</label></td>
+                <td><label>On Time</label></td>
+                <td><label>B12</label></td>
+                <td><label>4</label></td>
+                <td><label>Boeing 737 MAX</label></td>
+                <td><label>-</label></td>
+            </tr>
+            <tr>
+                <td><label>NY5678</label></td>
+                <td><label>SkyNova</label></td>
+                <td><label>Mumbai(BOM)</label></td>
+                <td><label>11:30AM</label></td>
+                <td><label>11:45AM</label></td>
+                <td><label>Delayed</label></td>
+                <td><label>C5</label></td>
+                <td><label>2</label></td>
+                <td><label>Airbus A350</label></td>
+                <td><label>Security check delay</label></td>
+            </tr>
+            <tr>
+                <td><label>NY9101</label></td>
+                <td><label>SkyNova</label></td>
+                <td><label>Beijing(PEK)</label></td>
+                <td><label>1:00PM</label></td>
+                <td><label>1:00PM</label></td>
+                <td><label>Boarding</label></td>
+                <td><label>D2</label></td>
+                <td><label>3</label></td>
+                <td><label>Boeing 777</label></td>
+                <td><label>Boarding Now</label></td>
+            </tr>
+            <tr>
+                <td><label>NY3456</label></td>
+                <td><label>SkyNova</label></td>
+                <td><label>London(LHR)</label></td>
+                <td><label>2:45PM</label></td>
+                <td><label>-</label></td>
+                <td><label>Cancelled</label></td>
+                <td><label>-</label></td>
+                <td><label>-</label></td>
+                <td><label>Airbus A380</label></td>
+                <td><label>Technical issues</label></td>
+            </tr>
+            <tr>
+                <td><label>NY7890</label></td>
+                <td><label>SkyNova</label></td>
+                <td><label>Bogota(BOG)</label></td>
+                <td><label>5:00PM</label></td>
+                <td><label>5:10PM</label></td>
+                <td><label>Delayed</label></td>
+                <td><label>E7</label></td>
+                <td><label>1</label></td>
+                <td><label>Boeing 787 Dreamliner</label></td>
+                <td><label>Weather conditions</label></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="container">
+        <div id="map"></div>
+
+        <div class="flight-text">
+
+            <h1 style="color:black">Available Flights</h1>
+            <div class="flight-controls">
+                <label>From:</label>
+                <select>
+                    <option>New York</option>
+                </select>
+
+                <label>To:</label>
+                <select id="destination">
+                    <option>Los Angeles</option>
+                    <option>London</option>
+                    <option>Mumbai</option>
+                    <option>Beijing</option>
+                    <option>Bogota</option>
+                </select>
+                <button type="button" onclick="seemap()">See on Map</button>
+                <button onclick="toBook()" id="ToBook" title="Book a Flight">Book A Flight</button>
+            </div>
+            <div id="cityInfo" style="display: none; margin-top: 20px; align-items: flex-start; gap: 15px;"></div>
+
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script type="text/javascript" src="../JS/flightMap.js"></script>
+
+    <button onclick="topFunction()" id="ToTop" title="Go to top" style="display:none;">Back To Top</button>
+    <script src="../JS/toTopButton.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking</title>
+
+    <link href="../CSS/Universal.css" rel="stylesheet" />
+    <link href="../CSS/Booking.css" rel="stylesheet" />
+</head>
+<body>
+
+    <p class="stickyposition">Welcome to SkyNova</p>
+
+    <h1 class="heading">
+
+        <span class="Cs">S</span><span class="s">ky</span><span class="Cs">N</span><span class="s">ova</span>
+
+        <p class="Hs">Explore-Dream-Fly</p>
+
+    </h1>
+
+    <div class="menuBar">
+        <nav>
+            <h2>
+                <a href="Home.html">Home</a>
+                <!--
+                -->
+                <a href="About.html">About</a>
+                <!--
+                -->
+                <a href="Flights.html">Flights</a>
+                <!--
+                -->
+                <a href="Login.html">Sign Up / Login</a>
+                <!--
+                -->
+                <a href="Contact.html">Contact</a>
+            </h2>
+        </nav>
+    </div>
+
+    <h1 id="h2">Airplane Booking</h1>
+
+    <h2 id="h2">Flight Selection</h2>
+
+    <fieldset>
+
+        <h3 id="dest"></h3>
+
+        <label>Departure Date:</label>
+        <input type="date" id="departure"><br><br>
+
+        <label>Return Date:</label>
+        <input type="date" id="return"><br><br>
+
+        <label>Passengers:</label>
+        <input type="number" id="passengers" min="1" value="1"><br><br>
+
+        <label>Class:</label>
+        <select id="class">
+            <option value="Economy">Economy</option>
+            <option value="Business">Business</option>
+            <option value="First">First</option>
+        </select>
+
+    </fieldset>
+
+    <h2 id="h2">Passenger Information</h2>
+
+    <fieldset>
+
+        <label>Passport Number:(Enter 8 digit number)</label>
+        <input type="text" id="passport"><br><br>
+
+        <label>Passport Expiry:</label>
+        <input type="date" id="passportExp">
+
+    </fieldset>
+
+    <h2 id="h2">Payment Details</h2>
+
+    <fieldset>
+
+        <label>Cardholder Name:</label>
+        <input type="text" id="cardname"><br><br>
+
+        <label>Card Number:()</label>
+        <input type="text" id="cardnumber"><br><br>
+
+        <label>Expiry Date:</label>
+        <input type="month" id="expdate"><br><br>
+
+        <label>CVV:</label>
+        <input type="text" id="cvv" maxlength="4">
+
+    </fieldset>
+
+    <br>
+
+    <button onclick="bookingInfo()" type="button" id="ToSumbit">Submit Booking</button>
+
+    <button onclick="topFunction()" id="ToTop" title="Go to top" style="display:none;">Back To Top</button>
+    <script src="../JS/toTopButton.js" type="text/javascript"></script>
+    <script src="../JS/accCheck.js"></script>   
+
+</body>
+</html>

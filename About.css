@@ -1,0 +1,71 @@
+#h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 180%;
+    font-weight: bold;
+    color:white;
+}
+
+#h3 {
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 180%;
+    font-weight: bold;
+}
+.paraborder1 {
+    width: 700px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+    color: white;
+    font-weight: bold;
+}
+.paraborder {
+    border: 2px solid grey;
+    width: 700px;
+    padding: 15px;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+.formback{
+    background-image: url('../Images/formpic.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+#pic1 {
+    background-image: url("../Images/story.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 780px 30px;
+    background-size:640px 360px;
+}
+#pic2 {
+    background-image: url("../Images/passengers.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:600px;
+    margin-bottom:50px;
+}
+#ToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    outline: none; 
+    background-color: red;
+    color: white;
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 18px; 
+}
+
+#ToTop:hover {
+    background-color: #555;
+}

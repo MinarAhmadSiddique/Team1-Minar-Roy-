@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+
+    <link href="../CSS/Home.css" rel="stylesheet" />
+    <link href="../CSS/Universal.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <p class="stickyposition">Welcome to SkyNova</p>
+
+    <h1 class="heading">
+
+        <span class="Cs">S</span><span class="s">ky</span><span class="Cs">N</span><span class="s">ova</span>
+
+        <p class="Hs">Explore-Dream-Fly</p>
+
+    </h1>
+    <div class="menuBar">
+        <nav>
+            <h2>
+                <a href="Home.html">Home</a>
+                <!--
+            -->
+                <a href="About.html">About</a>
+                <!--
+            -->
+                <a href="Flights.html">Flights</a>
+                <!--
+            -->
+                <a href="Login.html">Sign Up / Login</a>
+                <!--
+            -->
+                <a href="Contact.html">Contact</a>
+            </h2>
+        </nav>
+    </div>
+
+
+    <div id="pic1">
+
+        <div style=" background-image: linear-gradient(to right, rgb(39, 39, 39, 0.93),rgb(255, 255, 255, 0.00)); height:600px; ">
+            <h3 id="h1">Welcome Aboard</h3>
+
+            <p class="paraborder1">
+                Step into a world where travel meets
+                excellence. At SkyNova Airlines, every journey is designed to combine modern innovation with the warmth of personalized
+                service.
+                Our global network and dedicated crew ensure that your travel experience is smooth, safe, and truly memorable.
+                From the moment you check in to the final destination, we are committed to making every mile meaningful.
+                Enjoy spacious seating, world-class in-flight entertainment, and gourmet cuisine curated to elevate your journey.
+                Whether you're traveling for business or leisure, SkyNova Airlines brings you comfort, reliability, and unmatched hospitality.
+                Join the millions who trust us to take them to the skies  because with SkyNova, every flight is a promise of excellence.
+            </p><br /><br />
+            <button onclick="toFlights()" id="ToFlights" title="Book a Flight">Book A Flight</button>
+
+            <script type="text/javascript">
+                function toFlights() {
+                    window.location.href = "Flights.html";
+                }
+            </script>
+
+        </div>
+    </div>
+
+    <h3 class="headingBorder"style="color:white">Why Fly With Us?</h3>
+
+    <div style="display: flex;flex-direction: row;margin-left: 200px;color:white">
+        <img src="../Images/welcome2.jpeg" height="460" width="550">
+        <p class="paraborder" style="margin-left: 80px;margin-right: 200px;font-size: 150%;">
+            We're committed to delivering outstanding
+            service, cutting-edge comfort, and reliability that keeps you on schedule. Our state-of-the-art fleet, in-flight amenities,
+            and robust support system work together to transform every flight into an extraordinary travel experience.
+            From seamless booking to smooth landings, we focus on every detail so you can focus on what matters most.
+            Our crew members are trained to anticipate your needs, ensuring that your journey is not just efficient, but genuinely
+            enjoyable.
+            With global connectivity and personalized service, we don't just take you places - we elevate how you get there.
+            Choose SkyNova Airlines and discover how travel can be both inspiring and effortless.
+        </p>
+    </div>
+    <h3 class="headingBorder" style="color:white">Featured Destinations & Special Offers</h3>
+
+    <div style="display: flex;flex-direction: row;margin-left: 200px;margin-right: 200px;color:white    ">
+        <p class="paraborder" style="margin-right: 50px;font-size: 150%;">
+            Explore vibrant cities, breathtaking landscapes, and cultural treasures across the globe. Discover
+            our seasonal promotions and exclusive deals designed to inspire your next adventure. Whether you're traveling for business
+            or leisure, your next destination awaits with us.
+            From the romantic streets of Paris to the serene beaches of Bali, our curated destinations promise unforgettable experiences.
+            Take advantage of limited-time offers, early bird discounts, and last-minute getaways tailored to your travel dreams.
+            With SkyNova, every journey becomes more than just a trip - it's a chance to explore the world on your terms.
+            Stay tuned for new deals, featured getaways, and insider travel tips that help you see more, spend less, and travel smarter.
+        </p>
+        <img src="../Images/city.jpeg" height="370" width="400" style="margin-top: 20px;">
+    </div>
+
+    <button onclick="topFunction()" id="ToTop" title="Go to top" style="display:none;">Back To Top</button>
+    <script src="../JS/toTopButton.js" type="text/javascript"></script>
+</body>
+</html>

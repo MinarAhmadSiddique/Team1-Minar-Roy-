@@ -1,0 +1,29 @@
+﻿fieldset {
+    color: white;
+    width:50%;
+    background-color:dodgerblue;
+    margin:0 auto;
+}
+#h2{
+    color:white;
+    text-align:center;
+}
+#ToSumbit {
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+}
+#ToSubmit:hover {
+    background-color: #555;
+}   
+.highlight{
+    color:orange;
+}
+
