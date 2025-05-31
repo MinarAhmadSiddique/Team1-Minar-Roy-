@@ -33,21 +33,21 @@
     font-size: 130%;
 }
 .formback{
-    background-image: url('../Images/formpic.jpg');
+    background-image: url('formpic.jpg');
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 
 #pic1 {
-    background-image: url("../Images/story.png");
+    background-image: url("story.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 780px 30px;
     background-size:640px 360px;
 }
 #pic2 {
-    background-image: url("../Images/passengers.jpg");
+    background-image: url("passengers.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height:600px;
