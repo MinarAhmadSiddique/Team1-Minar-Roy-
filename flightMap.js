@@ -27,23 +27,23 @@ const cityCoords = {
 const cityInfoData = {
     "Los Angeles": {
         description: "Los Angeles, known for its film industry, beautiful beaches, and cultural landmarks, is a vibrant and iconic US city.",
-        image: "../Images/Los_Angeles.png"
+        image: "Los_Angeles.png"
     },
     "London": {
         description: "London offers a mix of iconic sights, world-class museums, and vibrant neighborhoods, making it an unforgettable destination for any traveler.",
-        image: "../Images/london.png"
+        image: "london.png"
     },
     "Mumbai": {
         description: "Mumbai is a vibrant, chaotic, and exciting city where street food, seaside views, and rich history offer something new around every corner",
-        image: "../Images/mumbai.png"
+        image: "mumbai.png"
     },
     "Beijing": {
         description: "Beijing is a city where old meets new, with ancient temples and narrow alleyways beside busy roads and glass towers.",
-        image: "../Images/beijing.png"
+        image: "beijing.png"
     },
     "Bogota": {
         description: "Bogotá is a colorful, energetic city where you can wander colonial streets, see bold street art, and take in sweeping mountain views-all in one day.",
-        image: "../Images/bogota.png"
+        image: "bogota.png"
     }
 };
 
