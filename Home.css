@@ -9,7 +9,7 @@
     color:white;
 }
 #pic1 {
-    background-image: url("../Images/welcomeabroad.png");
+    background-image: url("welcomeabroad.png");
     background-repeat: no-repeat;
     background-size:cover;
     height: 600px;
