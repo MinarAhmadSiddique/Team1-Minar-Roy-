@@ -6,7 +6,7 @@ body {
 }
 .heading {
     padding: 20px;
-    background-image: url('heading.png');
+    background-image: url("heading.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
